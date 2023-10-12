@@ -74,7 +74,7 @@ class AdvantagesSection extends StatelessWidget {
 
     return LayoutBuilder(
       builder: (context, constraints) {
-        print(" biggest: ${constraints.biggest} | smallest: ${constraints.smallest}");
+        //print(" biggest: ${constraints.biggest} | smallest: ${constraints.smallest}");
         if (constraints.maxWidth >= mobileBreakpoint) {
           // se for maior que MOBILE, ou seja >= 700
           return Container(

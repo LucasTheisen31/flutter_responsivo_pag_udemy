@@ -3,6 +3,7 @@ import 'package:flutter_responsivo_pag_udemy/breakpoints.dart';
 import 'package:flutter_responsivo_pag_udemy/pages/home/widgets/app_bar/mobile_app_bar.dart';
 import 'package:flutter_responsivo_pag_udemy/pages/home/widgets/app_bar/web_app_bar.dart';
 import 'package:flutter_responsivo_pag_udemy/pages/home/widgets/sections/advantages_section.dart';
+import 'package:flutter_responsivo_pag_udemy/pages/home/widgets/sections/courses_section.dart';
 import 'package:flutter_responsivo_pag_udemy/pages/home/widgets/sections/top_section.dart';
 
 class HomePage extends StatelessWidget {
@@ -34,6 +35,7 @@ class HomePage extends StatelessWidget {
                 children: const [
                   TopSection(),
                   AdvantagesSection(),
+                  CoursesSection(),
                 ],
               ),
             ),
