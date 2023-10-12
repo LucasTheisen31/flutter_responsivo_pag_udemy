@@ -9,7 +9,7 @@ class TopSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraints) {
-        print(" biggest: ${constraints.biggest} | smallest: ${constraints.smallest}");
+        //print(" biggest: ${constraints.biggest} | smallest: ${constraints.smallest}");
         final maxWhidth = constraints.maxWidth;
         if (maxWhidth >= tabletBreakpoint) {
           //Se for maior que tablet, ou seja, maior que 1200. No caso é WEB
@@ -62,7 +62,7 @@ class TopSection extends StatelessWidget {
             ),
           );
         }
-        
+
         if (maxWhidth >= mobileBreakpoint) {
           //Se for maior que mobile, ou seja, maior que 700. No caso é WEB ou TABLET, mas WEB já é tratado lá em cima
           return SizedBox(
