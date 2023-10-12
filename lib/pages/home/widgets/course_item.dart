@@ -17,7 +17,7 @@ class CourseItem extends StatelessWidget {
           height: 4,
         ),
         Flexible(
-          //Flexible limita o tamanho máximo, mas o minimo é 0, ou seja, pode diminuir e não ocupa o espaço inteiro como o Expanded
+          //Flexible limita o tamanho máximo, mas o minimo é 0, ou seja, pode diminuir e não ocupa o espaço inteiro como o Expanded, ou seja, só vai ocupar o espaço necessário
           child: LayoutBuilder(
             builder: (_, constraints) {
               print(" biggest: ${constraints.biggest}"); //colocamos um LayoutBuilder para poder printar as constraints
