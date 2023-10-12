@@ -9,7 +9,7 @@ class WebAppBarResponsiveContent extends StatelessWidget {
       child: LayoutBuilder(
         builder: (context, constraints) {
           //Quando utilizamos um expanded, ele ignora o tamanho do filho e o filho vai adotar o tamanho do pai expanded
-          print(("biggest: ${constraints.biggest} | smallest: ${constraints.smallest}"));
+          //print(("biggest: ${constraints.biggest} | smallest: ${constraints.smallest}"));
           return Row(
             children: [
               Expanded(
