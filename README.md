@@ -1,4 +1,3 @@
-# flutter_responsivo_pag_udemy
+# Curso de Responsividade no Flutter
 
-A new Flutter project.
-
+Para acessar a página hospedada do Instagram, [clique aqui](https://lucastheisen31.github.io/pag_udemy_hospedagem/).
