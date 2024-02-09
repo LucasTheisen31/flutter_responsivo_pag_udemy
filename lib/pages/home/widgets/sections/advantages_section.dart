@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../../breakpoints.dart';
 
 class AdvantagesSection extends StatelessWidget {
-  const AdvantagesSection({Key? key}) : super(key: key);
+  const AdvantagesSection({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,20 +11,17 @@ class AdvantagesSection extends StatelessWidget {
       return Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Icon(
+          Icon(
             Icons.star,
             color: Colors.white,
             size: 50,
           ),
-          const SizedBox(
-            width: 8,
-          ),
+          const SizedBox(width: 8),
           Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
                 title,
-                style: const TextStyle(
+                style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
@@ -32,10 +29,8 @@ class AdvantagesSection extends StatelessWidget {
               ),
               Text(
                 subtitle,
-                style: const TextStyle(
-                  color: Colors.white,
-                ),
-              ),
+                style: TextStyle(color: Colors.white),
+              )
             ],
           )
         ],
@@ -46,7 +41,7 @@ class AdvantagesSection extends StatelessWidget {
       return Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Icon(
+          Icon(
             Icons.star,
             color: Colors.white,
             size: 50,
@@ -57,7 +52,7 @@ class AdvantagesSection extends StatelessWidget {
           Text(
             title,
             textAlign: TextAlign.center,
-            style: const TextStyle(
+            style: TextStyle(
               color: Colors.white,
               fontSize: 16,
               fontWeight: FontWeight.bold,
@@ -66,7 +61,7 @@ class AdvantagesSection extends StatelessWidget {
           Text(
             subtitle,
             textAlign: TextAlign.center,
-            style: const TextStyle(color: Colors.white),
+            style: TextStyle(color: Colors.white),
           ),
         ],
       );
